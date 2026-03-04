@@ -14,7 +14,7 @@ public class CorsConfig {
                 registry.addMapping("/**") // Allow all endpoints
                         .allowedOrigins(
                                 "http://localhost:5173", // For local dev
-                                "https://your-inventra-app.vercel.app" // ⚠️ Replace with your actual Vercel URL
+                                "https://inventra-app-ten.vercel.app/" // ⚠️ Replace with your actual Vercel URL
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
